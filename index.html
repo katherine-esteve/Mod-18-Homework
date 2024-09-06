@@ -6,9 +6,11 @@
   
     <title>Mod 18 Homework</title>
   
-    <!--Link to CSS Style Sheet-->
+    <!-- Link to CSS Style Sheet -->
     <link rel="stylesheet" href="css/style.css"> 
   
+    <!-- Hi Johana! Hope you are having a great day. -->
+
 </head> 
 
     
@@ -17,8 +19,8 @@
     <!-- Logo & Nav Section --> 
     <header class="navigation">
 
-        <div class="inline-block logo">
-            <img src="/Images/Header_Logo.png" alt="Logo">               
+        <div class="logo inline-block">
+            <img src="Images/Header_Logo.png" alt="Logo">               
         </div> 
       
         <nav class="inline-block">
@@ -33,20 +35,18 @@
     </header>
       
     <!-- Hero Section -->
-    <section class="heroImg">
+    <section class="heroSection">
 
-        <div class="content">
+        <div class="heroContent">
 
            <div class="heroBlurb">
-                <br>
-                <br>
                 <p>Hello, my name is</p>
-                <img src="/Images/Hero_Name.png" alt="Hero Name">
+                <img src="Images/Hero_Name.png" alt="Katherine Esteve">
                 <p> I am a UX/UI Designer based in Chicago, IL. <br> My specialty is design rooted in empathy and functionality.</p>
             </div>
 
             <div>
-            <img src="/Images/Hero_Image.png" alt="Hero Image" id="Hero"> 
+            <img src="Images/Hero_Image.png" alt="Hero Image" id="Hero"> 
             </div>
 
         </div>
@@ -54,90 +54,110 @@
     </section>
 
     <!--Work-->
-    <section class="myWork">
-        
-        <h1 class="heading">My Work</h1>
+    <section class="workSection">
+            
+        <h1 class="header">My Work</h1>
 
-        <div class="workGrid">
+        <section class="workContent">
 
-         <!-- Project One: CPR -->
+            <!--Project One: CPR -->
+            <div class="project row1">
 
-            <div class="img1">
-                <img src="/Images/Image_Project.png">
+                <div class="column1">
+                    <img src="Images/Image_Project.png" alt="projectOne" class="img1">
+                </div>
+                
+                <div class="column2">
+                    <h3>01 Chicago Pet Rescue Website</h3>
+                    <div class="pinkBar"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button>Learn More</button>
+                </div>
+
+            </div>
+    
+            <!--Project Two: EcoQuest -->
+            <div class="project row2">
+
+                <div class="column1">
+                    <img src="Images/Image_Project.png" alt="projectTwo" class="img1">
+                </div>
+
+                <div class="column2">
+                    <h3>02 EcoQuest Mobile App</h3>
+                    <div class="greenBar"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button>Learn More</button>
+                </div>
+
+            </div>
+    
+            <!--Project Three: Nomad -->
+            <div class="project row3">
+
+                <div class="column1">
+                    <img src="Images/Image_Project.png" alt="projectThree" class="img1">
+                </div>
+
+                <div class="column2">
+                    <h3>03 Nomad Mobile App</h3>
+                    <div class="yellowBar"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button>Learn More</button>
+                </div>
+
             </div>
 
-            <div class="content1">
-                <h3>01 Chicago Pet Rescue Website</h4>        
-                    <div class="pinkBar"> <!--Pink Bar--> </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <button>Learn More</button>
-            </div>
-
-         <!-- Project Two: EcoQuest -->
-
-            <div class="img2">
-                <img src="/Images/Image_Project.png">
-            </div>
-
-            <div class="content2">
-                <h3>02 EcoQuest Mobile App</h4>
-                    <div class="greenBar"> <!--Green Bar--> </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <button>Learn More</button>
-            </div>
-
-
-         <!-- Project Three: Nomad -->
-
-            <div class="img3">
-                <img src="/Images/Image_Project.png">
-            </div>
-
-            <div class="content3">
-                <h3>03 Nomad Mobile App</h4>
-                <div class="yellowBar"> <!--Yellow Bar--> </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <button>Learn More</button>
-            </div>
-
-        </div>
+        </section>
 
     </section>
 
-     <!--Skills Section-->
-   
-     <h1 class="heading">Expertise</h1>
 
-     <div class="blueBar"> <!--Blue Bar--> </div>
+    <!--Expertise Section-->
+    <section class="expertiseContent">
+    
+        <h1 class="heading">Expertise</h1>
+    
+        <div class="blueBar"> <!--Blue Bar--> </div>
+    
+        <div class="expertiseBlurbs">
+
+            <!--01 User Research-->
+            <div class="content4">
+                 <h3>01 User Research</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
  
-     <section class="flexContainer">
-         
-         <div>
-             <h3>01 User Research</h3>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
-         </div>
+
+            <!--02 Interface Design-->
+            <div class="content4">
+                 <h3>02 Interface Design</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
  
-         <div>
-             <h3>02 Interface Design</h3>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
-         </div>
- 
-         <div>
-             <h3>03 User Testing</h3>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
-         </div>
- 
-     </section>
+
+            <!--03 User Testing-->
+            <div class="content4">
+                 <h3>03 User Testing</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+
+        </div>
+           
+    </section>
  
 
     <!-- Footer -->
     <footer>
-    <h2>Let's Connect</h3>
-    <div>
-        <img src="/Images/Icon_LinkedIn.png" alt="LinkedIn">
-        <img src="/Images/Icon_Email.png" alt="Email">
-        <img src="/Images/Icon_Phone.png" alt="Phone">
-    </div>
+
+        <h2>Let's Connect</h3>
+
+        <div>
+            <img src="Images/Icon_LinkedIn.png" alt="LinkedIn">
+            <img src="Images/Icon_Email.png" alt="Email">
+            <img src="Images/Icon_Phone.png" alt="Phone">
+        </div>
+
     </footer>
 
 </body>
